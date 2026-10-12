@@ -1,0 +1,8 @@
+{
+  "name": "ecell-web-selection-demos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Four prototype websites for the E-Cell IIT Kharagpur web selection tasks",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.21.2", "socket.io": "^4.8.1" }
+}

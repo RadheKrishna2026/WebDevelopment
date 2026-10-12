@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-Cell Web Projects</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f2f4f8; color: #222; }
+    header { background: #294f87; color: white; padding: 28px 20px; text-align: center; }
+    header h1 { margin: 0 0 8px; font-size: 30px; }
+    header p { margin: 0; }
+    main { max-width: 950px; margin: 25px auto; padding: 0 18px; }
+    .intro { line-height: 1.5; }
+    .projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 22px; }
+    .card { background: white; border: 1px solid #d0d5dd; border-radius: 6px; padding: 18px; }
+    .card h2 { margin-top: 0; font-size: 21px; color: #294f87; }
+    .card p { line-height: 1.5; min-height: 65px; }
+    a.button { display: inline-block; background: #294f87; color: white; padding: 9px 13px; text-decoration: none; border-radius: 4px; }
+    a.button:hover { background: #1d3c69; }
+    footer { text-align: center; padding: 22px; color: #555; font-size: 14px; }
+    @media (max-width: 650px) { .projects { grid-template-columns: 1fr; } .card p { min-height: 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>E-Cell Web Projects</h1>
+    <p>Four website ideas made for the web selection tasks</p>
+  </header>
+  <main>
+    <p class="intro">Choose a project below to open it. These pages use HTML, CSS and JavaScript and are meant to be simple examples that can be improved.</p>
+    <section class="projects">
+      <article class="card">
+        <h2>1. GES Website</h2>
+        <p>An event website with a countdown, a three-day schedule and speaker cards that flip when clicked.</p>
+        <a class="button" href="ges.html">Open GES Website</a>
+      </article>
+      <article class="card">
+        <h2>2. Markdown Editor</h2>
+        <p>Write Markdown on one side and see the formatted result on the other side. Notes are saved in the browser.</p>
+        <a class="button" href="markdown.html">Open Markdown Editor</a>
+      </article>
+      <article class="card">
+        <h2>3. Music Player</h2>
+        <p>A music player with a playlist, play and pause buttons, volume control and a progress bar.</p>
+        <a class="button" href="player.html">Open Music Player</a>
+      </article>
+      <article class="card">
+        <h2>4. Pitch Arena</h2>
+        <p>A practice pitch room where founders can start a timer and investors can submit sample bids.</p>
+        <a class="button" href="arena.html">Open Pitch Arena</a>
+      </article>
+    </section>
+  </main>
+  <footer>Student web development project</footer>
+</body>
+</html>
